@@ -14,6 +14,7 @@ Neste programa, o cliente da corretora poderá definir um percentual de diversif
      4 - Stocks (XX%)
      5 - Reits (XX%)
 
+
 Os passos a serem executados no sistema pelo usuário, são:
 * Passo 1: Indicação do valores percentuais sobre cada investimento
 * Passo 2: Indicar os valores que já possui investido em cada categoria
