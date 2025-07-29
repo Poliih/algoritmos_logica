@@ -25,7 +25,7 @@ Inicio
 	        
 	        }   
 	        se(somaP != 100){
-	            escreva("A samo percentual e diferente de 100%, insira novamente")
+	            escreva("A soma percentual e diferente de 100%, insira novamente")
 	            somP = 0
 	        }
 		fim_se
