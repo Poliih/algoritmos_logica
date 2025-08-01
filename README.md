@@ -1,32 +1,63 @@
-# algoritmos_logica
-Uma carteira de investimentos bem diversificada, pode e deve ser composta por ativos de renda fixa e renda variável, mas isso vai depender do perfil do investidor.
-Caso o investidor tenha zero tolerância a volatilidade (oscilação do valor de seus ativos), ele não deve comprar ações na bolsa de valores diretamente. (GUEDINE, 2021).
+# 💼 Simulador de Carteira de Investimentos
 
-O objetivo da independência financeira é um sonho da maior parte dos brasileiros. Para se ter uma carteira de investimento eficiente e segura é muito importante o fator da "diversificação" e,  para isso, hoje existe várias opções de investimento, como por exemplo: Renda Fixa e CDBs, e a Renda Variável que são as Ações e Fundos Imobiliários. Além disso, uma boa opção para divesificação são as Stocks (ações de empresas internacionais) e os REITs (fundos imobiliários internacionais.)
+Este repositório contém um exercício de lógica e algoritmos que simula a alocação de uma carteira de investimentos, com validações e cálculos percentuais. Desenvolvido em pseudocódigo (Portugol), o programa visa reforçar conceitos fundamentais como vetores, estruturas de repetição e condicionais.
 
-Imagine que você é um desenvolvedor de uma corretora de valores e precisa desenvolver um programa.
-Para isso, você recebeu as informações da empresa para lhe dar subsídios para desenvolver o seu pseudocódigo.
-Leia atentamente as informações a seguir.
+---
 
-Neste programa, o cliente da corretora poderá definir um percentual de diversificação entre as seguintes opções de investimento:
-     1 - CDBs (XX%)
-     2 - Ações (XX%)
-     3 - Fundos Imobiliários (XX%)
-     4 - Stocks (XX%)
-     5 - Reits (XX%)
+## 🧠 Objetivo
 
-Os passos a serem executados no sistema pelo usuário, são:
-* Passo 1: Indicação do valores percentuais sobre cada investimento
-* Passo 2: Indicar os valores que já possui investido em cada categoria
+Permitir que o usuário:
 
-Como Regra do sistema (requisitos), você tem que:
-1 O total percentual dos objetivos deve somar 100%. Caso seja diferente, uma mensagem deve ser mostrada ao usuário indicando o problema, deve-se pedir para repetir o preenchimento.
-2 Todos os valores de investimento devem ser preenchidos, caso o usuário não queira investir em alguma das categorias, deve-se digitar 0
-3 Ao final das entradas de valores, deverá apresentar um resumo indicando o % de objetivos pretendido, o % atual.
-3.1 Objetivos pretendido (mostras as categorias e seus respectivos valores percentuais)
-3.2 Objetivo atual deve sergui a regra:
-​                             A = Soma todos os valores investidos
-                             B = Valor indicado de invetimento em cada categoria
-                             C = B multiplico por 100
-                             D = C/A
-                             * esta regra deve ser utiliza em cada categoria
+- Defina os **percentuais desejados** de alocação para cinco tipos de ativos;
+- Informe os **valores já investidos** em cada tipo;
+- Visualize um **resumo comparativo** entre a alocação desejada e a alocação atual;
+- Identifique a categoria com maior **discrepância percentual** entre o planejado e o realizado.
+
+---
+
+## 📊 Tipos de Investimentos Suportados
+
+- 🏦 CDBs (Renda Fixa)  
+- 📈 Ações (Renda Variável)  
+- 🏢 Fundos Imobiliários (FIIs)  
+- 🌍 Stocks (Ações Internacionais)  
+- 🏬 REITs (Fundos Imobiliários Internacionais)
+
+---
+
+## 🔁 Fluxo do Programa
+
+1. O usuário define os **percentuais de alocação** (devem somar exatamente **100%**);
+2. O usuário informa os **valores investidos atualmente** em cada categoria;
+3. O programa calcula a **alocação percentual atual** e compara com o objetivo;
+4. Exibe um **resumo por categoria**, incluindo a discrepância;
+5. Informa qual categoria está com a **maior diferença** em relação ao planejado.
+
+---
+
+## ✅ Regras de Validação
+
+- A soma dos percentuais definidos deve ser **igual a 100%**;
+- Todas as categorias devem receber um valor, mesmo que seja **0**;
+- Os percentuais atuais são calculados proporcionalmente à soma dos valores investidos;
+- A maior discrepância percentual entre o atual e o pretendido é destacada no final.
+
+---
+
+## 🛠 Tecnologias / Ferramentas
+
+- Pseudocódigo (Portugol)
+- Editor recomendado: [Visualg](http://visualg3.blogspot.com/)
+
+---
+
+## 👩‍💻 Autoria
+
+Exercício criado para fins educacionais, como parte da prática de lógica de programação.  
+Desenvolvido por [Poliana](https://github.com/Poliih) 💙
+
+---
+
+## 📜 Referência
+
+> GUEDINE, Rodrigo. "O que é diversificação e por que ela é tão importante nos investimentos?", 2021.
